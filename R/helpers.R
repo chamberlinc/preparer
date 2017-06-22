@@ -9,7 +9,7 @@ na_fill = function(x, tol){
   return(x)
 }
 
-
+# I added something here, just a test
 # stack data files from the same data logger but different dates
 load_stack_file = function(files, gmtoff, logger){
   dates = sub(".*_(.*)_.*\\..*", "\\1", files) # get all dates
